@@ -85,7 +85,7 @@ main > section > div > img {
 main > section > #box-video {
     position: relative;
     background-color: var(--cor2);
-    margin: 0px 0px 30px 0px;
+    margin: 0px -7px 30px -7px;
     border-radius: 10px;
     padding-bottom: 58%;
 }
