@@ -77,7 +77,7 @@ Grandes telas: acima de 1200px
     }
 
     header > p {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     main {
@@ -93,8 +93,9 @@ Grandes telas: acima de 1200px
     }
 
     main > section > p {
-        font-size: 28px;
-        line-height: 35px;
+        font-size: 35px;
+        line-height: 45px;
+        text-indent: 60px;
     }
 
     main > section > div > .legenda {
@@ -103,5 +104,9 @@ Grandes telas: acima de 1200px
 
     main > section > #box-video {
         margin: 0px -15px 30px -15px;
+    }
+
+    footer > p {
+        font-size: 24px;
     }
 }
