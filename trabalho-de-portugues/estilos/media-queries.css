@@ -11,10 +11,38 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
+    header > h1 {
+        font-size: 50px;
+    }
+
+    header > p {
+        
+    }
+
+    main > section > h2 {
+
+    }
+
+    main > section >  #titulo-especial {
+
+    }
+
+    main > section > p {
+
+    }
+
+    main > section > div > .legenda {
+
+    }
+
+    main > section > #box-video {
+        margin: 0px -10px 30px -10px;
+    }
 }
 
-@media screen and (min-width: 992px) {
-    
+@media screen and (min-width: 992px) { /* Desktop e Grandes telas */
+    main > section > #box-video {
+        margin: 0px -12px 30px -12px;
+    }
 }
